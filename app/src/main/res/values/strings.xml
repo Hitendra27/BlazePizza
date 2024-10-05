@@ -1,15 +1,17 @@
 <resources>
     <string name="app_name">BlazePizza</string>
-    <string name="order_cupcakes">Order Cupcakes</string>
-    <string name="one_cupcake">One Cupcake</string>
-    <string name="six_cupcakes">Six Cupcakes</string>
-    <string name="twelve_cupcakes">Twelve Cupcakes</string>
+    <string name="order_pizzas">Order Pizzas</string>
+    <string name="one_pizza">One Pizza</string>
+    <string name="three_pizza">Three Pizza</string>
+    <string name="two_cupcakes">Two Pizza</string>
     <string name="choose_flavor">Choose Flavor</string>
-    <string name="vanilla">Vanilla</string>
-    <string name="chocolate">Chocolate</string>
-    <string name="red_velvet">Red Velvet</string>
-    <string name="salted_caramel">Salted Caramel</string>
-    <string name="coffee">Coffee</string>
+    <string name="cheese_and_tomato">Cheese and Tomato</string>
+    <string name="texas_bbq">Texas  BBQ</string>
+    <string name="veg_supreme">Veg Supreme</string>
+    <string name="chicken_feast">Chicken Feast</string>
+    <string name="american_hot">American Hot</string>
+    <string name="tuna_supreme">Tuna Supreme</string>
+    <string name="vegi_volcano">Vegi Volcano</string>
     <string name="special_flavor">Special Flavor</string>
     <string name="cancel">Cancel</string>
     <string name="next">Next</string>
@@ -21,10 +23,10 @@
     <string name="pickup_date">Pickup date</string>
     <string name="subtotal_price">Subtotal %s</string>
     <string name="total_price">Total %s</string>
-    <string name="new_cupcake_order">New Cupcake Order</string>
+    <string name="new_pizza_order">New Pizza Order</string>
     <string name="order_details">Quantity: %1$s \nFlavor: %2$s \nPickup date: %3$s \nTotal: %4$s \n\nThank you!</string>
     <string name="back_button">Back</string>
-    <plurals name="cupcakes">
+    <plurals name="pizza">
         <item quantity="one">%d cupcake</item>
         <item quantity="other">%d cupcakes</item>
     </plurals>
