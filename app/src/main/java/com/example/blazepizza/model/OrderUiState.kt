@@ -1,3 +1,5 @@
+package com.example.blazepizza.model
+
 data class OrderUiState (
   val quantity: Int = 0,
   val flavour: String = "",
