@@ -1,11 +1,13 @@
 package com.example.blazepizza.datasource
 
+import com.example.blazepizza.model.MenuItem
+
+
 object DataSource {
-  val flavours = listOf(
-    
+
+  val pizzaMenuItems = listOf(
+    MenuItem.PizzaItem(
+
   )
 
-  val quantityOptions = listOf(
-    
-  )
 }

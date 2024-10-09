@@ -2,7 +2,7 @@ package com.example.blazepizza.model
 
 data class OrderUiState (
   // Entree Selection
-  val entree: MenuItem.EntreeItem? = null,
+  val entree: MenuItem.PizzaItem? = null,
   val crust: MenuItem.CrustItem? = null,
   val sideDish: MenuItem.SideDishItem? = null,
   val itemTotalPrice: Double = 0.0,
