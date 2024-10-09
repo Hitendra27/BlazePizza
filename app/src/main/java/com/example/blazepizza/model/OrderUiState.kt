@@ -1,9 +1,11 @@
 package com.example.blazepizza.model
 
 data class OrderUiState (
-  val quantity: Int = 0,
-  val flavour: String = "",
-  val date: String = "",
-  val price: String = "",
-  val pickupOptions: List<String> = listOf()
+  // Entree Selection
+  val entree: MenuItem.EntreeItem? = null,
+  val crust: MenuItem.CrustItem? = null,
+  val sideDish: MenuItem.SideDishItem? = null,
+  val itemTotalPrice: Double = 0.0,
+  val orderTax: Double = 0.0,
+  val orderTotalPrice: Double = 0.0,
 )
