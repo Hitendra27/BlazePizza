@@ -1,5 +1,6 @@
 package com.example.blazepizza.datasource
 
+import com.example.blazepizza.R
 import com.example.blazepizza.model.MenuItem
 
 
@@ -7,95 +8,94 @@ object DataSource {
 
   val pizzaMenuItems = listOf(
     MenuItem.PizzaItem(
-      name = "Cheese and Tomato",
+      name = "Original Cheese & Tomato",
       description = "Classic pizza with tomato and cheese",
       price = 10.99,
-      imageResourceId = 1
+      imageResourceId = R.drawable.originalcheesetomato
     ),
     MenuItem.PizzaItem(
       name = "Texas BBQ",
       description = "Spicy pizza with BBQ sauce",
       price = 12.99,
-      imageResourceId = 2
+      imageResourceId = R.drawable.texasbbq
     ),
     MenuItem.PizzaItem(
       name = "Veg Supreme",
       description = "Vegetarian pizza with multiple toppings",
       price = 11.99,
-      imageResourceId = 3
+      imageResourceId = R.drawable.vegisupreme
     ),
     MenuItem.PizzaItem(
       name = "Chicken Feast",
       description = "Pizza with chicken and cheese",
       price = 13.99,
-      imageResourceId = 4
+      imageResourceId = R.drawable.chickenfeast
     ),
     MenuItem.PizzaItem(
       name = "American Hot",
       description = "Pizza with American hot sauce",
       price = 12.99,
-      imageResourceId = 5
+      imageResourceId = R.drawable.americanhot
     )
   )
 
   val crustMenuItems = listOf(
     MenuItem.CrustItem(
-      name = "Thin",
-      description = "Thin crust pizza",
+      name = "Classic Crust",
+      description = "Classic fresh dough crust",
       price = 0.0,
-      imageResourceId = 6
+      imageResourceId = R.drawable.classiccrust
     ),
     MenuItem.CrustItem(
-      name = "Thick",
-      description = "Thick crust pizza",
+      name = "Italian Style",
+      description = "Famous Italian style crust",
       price = 2.99,
-      imageResourceId = 7
+      imageResourceId = R.drawable.italianstyle
     ),
     MenuItem.CrustItem(
       name = "Stuffed",
-      description = "Stuffed crust pizza",
+      description = "Stuffed crust",
       price = 3.99,
-      imageResourceId = 8
+      imageResourceId = R.drawable.stuffedcrust
     ),
     MenuItem.CrustItem(
-      name = "Cheesy",
-      description = "Cheesy crust pizza",
-      price = 4.99,
-      imageResourceId = 9
+      name = "Thin & Crispy ",
+      description = "Thin & Crispy crust",
+      price = 0.0,
+      imageResourceId = R.drawable.thinandcrispy
     )
   )
 
   val sideDishMenuItems = listOf(
     MenuItem.SideDishItem(
-      name = "Onion Rings",
-      description = "Crispy onion rings",
-      price = 2.99,
-      imageResourceId = 10
+      name = " Korean BBQ Chicken Wings",
+      description = "Crispy korean style bbq chicken wings",
+      price = 6.99,
+      imageResourceId = R.drawable.koreanbbqwings
     ),
     MenuItem.SideDishItem(
       name = "Garlic Bread",
       description = "Fresh garlic bread",
       price = 3.99,
-      imageResourceId = 11
+      imageResourceId = R.drawable.garlicbread
     ),
     MenuItem.SideDishItem(
-      name = "Mashed Potatoes",
-      description = "Mashed potatoes with cheese",
+      name = "Chcken Kickers",
+      description = "Fried Chicken with red coating and garlic butter sauce",
       price = 4.99,
-      imageResourceId = 12
+      imageResourceId = R.drawable.chickenkickers
     ),
     MenuItem.SideDishItem(
-      name = "Sweet Potato Fries",
+      name = "Loaded Fries",
       description = "Crispy sweet potato fries",
       price = 3.99,
-      imageResourceId = 13
+      imageResourceId = R.drawable.loadedfries
     ),
     MenuItem.SideDishItem(
-      name = "Cheese Dip",
-      description = "Cheese dip with marinara sauce",
-      price = 2.99,
-      imageResourceId = 14
+      name = "Chicken Strippers",
+      description = "Fried Chicken breast strips",
+      price = 8.99,
+      imageResourceId = R.drawable.chickenstrippers
     )
   )
-
 }
